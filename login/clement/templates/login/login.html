@@ -1,0 +1,12 @@
+{% block title %} Login with account {% endblock title %}
+
+{% block content %}
+
+<form method="POST" class="form-group">{% csrf_token %}
+    {{form}}
+    <button type="submit" class="btn btn-success">Clement</button>
+</form>
+
+
+
+{% endblock content %}
