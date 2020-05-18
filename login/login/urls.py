@@ -19,5 +19,6 @@ from clement import views as v
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('login/', v.login, name="login")
+    path('login/', v.login, name="login"),
+    path('', v.home, name="home")
 ]
